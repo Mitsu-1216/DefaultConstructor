@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace defaultConstructor
 {
-    internal static class Program
+    public static class main
     {
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。
