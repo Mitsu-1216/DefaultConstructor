@@ -8,13 +8,13 @@ namespace defaultConstructor
 {
     public static class main
     {
-        /// <summary>
-        /// アプリケーションのメイン エントリ ポイントです。
-        /// </summary>
+        // メイン エントリ ポイント
         static void Main()
         {
+            // インスタンス生成
             Animal r = new Animal("うさぎ");
-            Animal t = new Animal("かめ",10);
+            Animal t = new Animal("かめ", 100);
         }
+
     }
 }
